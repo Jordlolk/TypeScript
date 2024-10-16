@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "tsx",
-    "todolist": "tsup activities/to-do-list/src/index.ts"
+    "todolist": "tsup activities/to-do-list/src/index.ts",
+    "live": "live-server activities/to-do-list/public/index.html"
   },
   "keywords": [],
   "author": "",

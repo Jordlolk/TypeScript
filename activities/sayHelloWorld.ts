@@ -1,4 +1,4 @@
-function sayHelloWorld(){
-  console.log("Hello world!")
+function sayHelloWorld(): void{
+    console.log('Hello world!')
 }
 sayHelloWorld()

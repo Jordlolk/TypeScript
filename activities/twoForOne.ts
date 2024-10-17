@@ -9,12 +9,9 @@
       return code*zeros+' ohms'
     }
 */
-function twoForOne(personName: string) {
+function twoForOne(personName: any) {
   let personExists = typeof personName != "string" ? "you" : personName;
   console.log(`One for ${personExists}, one for me.`);
-  console.log('${10**colors.indexOf(color[2])}'.slice(1));
-  
-  
 }
 twoForOne("Alice");
 twoForOne(undefined);

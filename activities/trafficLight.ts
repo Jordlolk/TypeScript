@@ -4,9 +4,6 @@ enum Elights{
     Yellow
 }
 
-/* ENUM é uma estrutura para armazenar valores, sendo eles apenas chaves ou chaves com valores.
-podem ser usados para estabelecer uma estrutura de decisão entre outras coisas.*/
-
 function signal(lights : Elights){
     switch(lights){
         case Elights.Green:
